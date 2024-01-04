@@ -66,7 +66,7 @@ void Regular_Student::search_student() {
     }
     file.close();
 }
-virtual Regular_Student::void get_Student() {
+Regular_Student::void get_Student() {
     cout << "------------------------------------\n";
     cout << "1) ADD A STUDENT\n";
     cout << "2) VIEW ALL STUDENTS\n";
