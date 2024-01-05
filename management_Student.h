@@ -13,11 +13,8 @@ class management_Student : public Regular_Student {
         }
     };
 
-protected:
+public:
     void add_student();
     void show_all_student();
     void search_student();
-
-public:
-    virtual void get_Student();
 };
