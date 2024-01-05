@@ -78,30 +78,3 @@ void stream_change_Student::show_all_student() {
     }
     file.close();
 }
-void stream_change_Student::get_Student() {
-    cout << "------------------------------------\n";
-    cout << "1) ADD A STUDENT\n";
-    cout << "2) VIEW ALL STUDENTS\n";
-    cout << "3) SEARCH FOR A STUDENT\n";
-    cout << "------------------------------------\n";
-    char ch;
-    cout << "\nENTER YOUR CHOICE : ";
-    cin >> ch;
-    switch (ch) {
-    case '1':
-        cin.ignore();
-        add_student();
-        break;
-    case '2':
-        cin.ignore();
-        show_all_student();
-        break;
-    case '3':
-        cin.ignore();
-        search_student();
-        break;
-    default:
-        cout << "INVALID CHOICE......!";
-        break;
-    }
-}
