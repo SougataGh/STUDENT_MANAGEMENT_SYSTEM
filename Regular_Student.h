@@ -12,9 +12,9 @@ protected:
         id = "-1";
         dob = "-1";
     }
-    void add_student();
-    void show_all_student();
-    void search_student();
+   virtual void add_student();
+   virtual void show_all_student();
+   virtual void search_student();
 
 public:
     virtual void get_Student();
