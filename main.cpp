@@ -20,10 +20,12 @@ int main() {
         case '2':
             sptr1 = &st2;
             sptr1->get_Student();
+            sptr1=NULL;
             break;
         case '3':
             sptr1 = &st3;
             sptr1->get_Student();
+            sptr1=NULL;
             break;
         default:
             cout << "INVALID CHOICE.....!\n";
