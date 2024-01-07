@@ -16,8 +16,7 @@ int main() {
             st.get_Regular_Students();
             break;
         case '2':
-            sptr1 = &st2;
-            sptr1->get_Student();
+            st.
             sptr1=NULL;
             break;
         case '3':
