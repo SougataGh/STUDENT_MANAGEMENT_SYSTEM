@@ -1,3 +1,12 @@
+Student_Management_System::Student_Management_System()
+{
+       sptr=NULL;
+}
+Student_Management_System:: ~Student_Management_System()
+{
+     delete sptr;
+     sptr=NULL;
+}
 void Student_Management_System::get_Regular_Students()
 {
 	               sptr=new Regular_Student();
