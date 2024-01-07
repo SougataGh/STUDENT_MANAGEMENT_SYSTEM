@@ -1,5 +1,5 @@
 class Student_Management_System{
-	Regular_Student st1,*sptr;
+	Regular_Student st1;
 	stream_change_Student st2;
 	management_Student st3;
 	public:
