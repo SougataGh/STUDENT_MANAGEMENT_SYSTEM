@@ -42,7 +42,7 @@ void Student_Management_System::get_Regular_Students()
 }
 void Student_Management_System::get_stream_change_Students()
 {
-	    sptr=&st2;
+	                sptr=new stream_change_Student();
 	                cout<<"------------------------------------\n";
 			cout<<"1) ADD A STUDENT\n";
 			cout<<"2) VIEW ALL STUDENTS\n";
@@ -73,7 +73,7 @@ void Student_Management_System::get_stream_change_Students()
 }
 void Student_Management_System::get_management_Students()
 {
-	sptr=&st3;
+	               sptr=new management_Student();
 	                cout<<"------------------------------------\n";
 			cout<<"1) ADD A STUDENT\n";
 			cout<<"2) VIEW ALL STUDENTS\n";
