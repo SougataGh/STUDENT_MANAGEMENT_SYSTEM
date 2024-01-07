@@ -7,4 +7,5 @@ class Student_Management_System{
 		void get_Regular_Students();
 		void get_stream_change_Students();
 		void get_management_Students();
+                ~Regular_Student();
 };
