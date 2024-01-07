@@ -1,6 +1,7 @@
 void Student_Management_System::get_Regular_Students()
 {
-	cout<<"------------------------------------\n";
+	               sptr=&st1;
+	               cout<<"------------------------------------\n";
 			cout<<"1) ADD A STUDENT\n";
 			cout<<"2) VIEW ALL STUDENTS\n";
 			cout<<"3) SEARCH FOR A STUDENT\n";
@@ -11,20 +12,21 @@ void Student_Management_System::get_Regular_Students()
 			switch(ch){
 				case '1':
 					cin.ignore();
-					st1.add_student();break;
+					sptr->add_student();break;
 				case '2':
 					cin.ignore();
-				st1.search_student();break;
+				sptr->search_student();break;
 				case '3':
 					cin.ignore();
-				    st1.show_all_student();break;
+				    sptr->show_all_student();break;
 				default:
 				    cout<<"INVALID CHOICE......!";break;	
 			}
 }
 void Student_Management_System::get_stream_change_Students()
 {
-	cout<<"------------------------------------\n";
+	    sptr=&st2;
+	                cout<<"------------------------------------\n";
 			cout<<"1) ADD A STUDENT\n";
 			cout<<"2) VIEW ALL STUDENTS\n";
 			cout<<"3) SEARCH FOR A STUDENT\n";
@@ -35,20 +37,21 @@ void Student_Management_System::get_stream_change_Students()
 			switch(ch){
 				case '1':
 					cin.ignore();
-					st2.add_student();break;
+					sptr->add_student();break;
 				case '2':
 					cin.ignore();
-					st2.show_all_student();break;
+					sptr->show_all_student();break;
 				case '3':
 					cin.ignore();
-				    st2.search_student();break;
+				    sptr->search_student();break;
 				default:
 				    cout<<"INVALID CHOICE......!";break;	
 			}
 }
 void Student_Management_System::get_management_Students()
 {
-	cout<<"------------------------------------\n";
+	sptr=&st3;
+	                cout<<"------------------------------------\n";
 			cout<<"1) ADD A STUDENT\n";
 			cout<<"2) VIEW ALL STUDENTS\n";
 			cout<<"3) SEARCH FOR A STUDENT\n";
@@ -59,13 +62,13 @@ void Student_Management_System::get_management_Students()
 			switch(ch){
 				case '1':
 					cin.ignore();
-					st3.add_student();break;
+					sptr->add_student();break;
 				case '2':
 					cin.ignore();
-					st3.show_all_student();break;
+					sptr->show_all_student();break;
 				case '3':
 					cin.ignore();
-				    st3.search_student();break;
+				    sptr->search_student();break;
 				default:
 				    cout<<"INVALID CHOICE......!";break;	
 			}
