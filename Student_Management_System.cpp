@@ -28,6 +28,8 @@ void Student_Management_System::get_Regular_Students()
 				default:
 				    cout<<"INVALID CHOICE......!";break;	
 			}
+	          delete sptr;
+	          sptr=NULL;
 }
 void Student_Management_System::get_stream_change_Students()
 {
