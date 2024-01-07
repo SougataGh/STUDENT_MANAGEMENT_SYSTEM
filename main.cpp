@@ -19,9 +19,7 @@ int main() {
             st.get_stream_change_Students();
             break;
         case '3':
-            sptr1 = &st3;
-            sptr1->get_Student();
-            sptr1=NULL;
+            st.get_management_Students();
             break;
         default:
             cout << "INVALID CHOICE.....!\n";
