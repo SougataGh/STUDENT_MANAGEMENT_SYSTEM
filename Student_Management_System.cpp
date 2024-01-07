@@ -1,6 +1,6 @@
 void Student_Management_System::get_Regular_Students()
 {
-	               sptr=new 
+	               sptr=new Regular_Student();
 	               cout<<"------------------------------------\n";
 			cout<<"1) ADD A STUDENT\n";
 			cout<<"2) VIEW ALL STUDENTS\n";
@@ -13,7 +13,7 @@ void Student_Management_System::get_Regular_Students()
 				case '1':
 					cin.ignore();
 					sptr->add_student();
-					sptr=NULL;
+					
 					break;
 				case '2':
 					cin.ignore();
