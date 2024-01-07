@@ -13,7 +13,7 @@ int main() {
         cin >> ch;
         switch (ch) {
         case '1':
-            st.
+            st.get_Regular_Students();
             break;
         case '2':
             sptr1 = &st2;
