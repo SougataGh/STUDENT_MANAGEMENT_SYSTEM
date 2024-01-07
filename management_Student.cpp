@@ -1,3 +1,10 @@
+ management_Student::AdmissionDetails(string donation, string entrance_exam,
+                         string percentage) {
+            this->donation = donation;
+            this->entrance_exam = entrance_exam;
+            this->percentage = percentage;
+ }
+
 void management_Student::add_student() {
     string str1, str2, str3;
     cout << "ENTER NAME OF THE STUDENT : ";
