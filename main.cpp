@@ -16,8 +16,7 @@ int main() {
             st.get_Regular_Students();
             break;
         case '2':
-            st.
-            sptr1=NULL;
+            st.get_stream_change_Students();
             break;
         case '3':
             sptr1 = &st3;
