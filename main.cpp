@@ -1,7 +1,5 @@
 int main() {
-    Regular_Student st1, *sptr1 = NULL;
-    stream_change_Student st2;
-    management_Student st3;
+    Student_Management_System st;
     while (1) {
         system("cls");
         cout << "\t\t\t\t\t STUDENT MANAGEMENT SYSTEM \n\n\n";
@@ -15,7 +13,7 @@ int main() {
         cin >> ch;
         switch (ch) {
         case '1':
-            st1.get_Student();
+            st.
             break;
         case '2':
             sptr1 = &st2;
