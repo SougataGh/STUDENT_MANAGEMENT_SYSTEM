@@ -1,6 +1,6 @@
 void Student_Management_System::get_Regular_Students()
 {
-	               sptr=&st1;
+	               sptr=new 
 	               cout<<"------------------------------------\n";
 			cout<<"1) ADD A STUDENT\n";
 			cout<<"2) VIEW ALL STUDENTS\n";
