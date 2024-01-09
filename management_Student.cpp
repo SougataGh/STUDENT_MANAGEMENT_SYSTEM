@@ -1,4 +1,12 @@
- management_Student::AdmissionDetails(string donation, string entrance_exam,
+#include "Regular_Student.h"
+#include "management_Student.h"
+#include "Student_Management_System.h"
+#include "stream_change_Student.h"
+#include<string>
+#include<fstream>
+#include<iostream>
+
+management_Student::AdmissionDetails(string donation, string entrance_exam,
                          string percentage) {
             this->donation = donation;
             this->entrance_exam = entrance_exam;
