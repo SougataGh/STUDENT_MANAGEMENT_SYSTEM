@@ -5,6 +5,9 @@
 #include<string>
 #include<fstream>
 #include<iostream>
+
+using namespace std;
+
 void stream_change_Student::add_student() {
     cout << "ENTER NAME OF THE STUDENT : ";
     getline(cin, name);
