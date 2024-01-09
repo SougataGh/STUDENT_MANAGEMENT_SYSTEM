@@ -1,7 +1,5 @@
 class Student_Management_System{
 	Regular_Student *sptr;
-	//stream_change_Student st2;
-	//management_Student st3;
 	public:
                 Student_Management_System();
 		void get_Regular_Students();
