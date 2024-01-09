@@ -6,6 +6,8 @@
 #include<fstream>
 #include<iostream>
 
+using namespace std;
+
 management_Student::AdmissionDetails(string donation, string entrance_exam,
                          string percentage) {
             this->donation = donation;
