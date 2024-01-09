@@ -1,5 +1,4 @@
 
-using namespace std;
 
 class Regular_Student {
 protected:
