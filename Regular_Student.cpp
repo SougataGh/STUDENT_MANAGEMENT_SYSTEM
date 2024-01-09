@@ -1,4 +1,7 @@
 #include "Regular_Student.h"
+#include "management_Student.h"
+#include "Student_Management_System.h"
+#include "stream_change_Student.h"
 #include<string>
 #include<fstream>
 #include<iostream>
