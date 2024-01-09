@@ -1,3 +1,8 @@
+#include "Regular_Student.h"
+#include<string>
+#include<fstream>
+#include<iostream>
+
 void Regular_Student::add_student() {
     cout << "ENTER NAME OF THE STUDENT : ";
     getline(cin, name);
