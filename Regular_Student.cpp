@@ -6,6 +6,8 @@
 #include<fstream>
 #include<iostream>
 
+using namespace std;
+
 void Regular_Student::add_student() {
     cout << "ENTER NAME OF THE STUDENT : ";
     getline(cin, name);
