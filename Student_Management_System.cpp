@@ -1,4 +1,8 @@
-#include "Student_Management_System.hpp"
+
+#include "Regular_Student.h"
+#include "management_Student.h"
+#include "Student_Management_System.h"
+#include "stream_change_Student.h"
 #include<iostream>
 using namespace std;
 Student_Management_System::Student_Management_System()
