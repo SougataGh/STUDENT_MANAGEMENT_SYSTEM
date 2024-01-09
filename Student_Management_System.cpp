@@ -1,3 +1,6 @@
+#include "Student_Management_System.hpp"
+#include<iostream>
+using namespace std;
 Student_Management_System::Student_Management_System()
 {
        sptr=NULL;
