@@ -29,7 +29,7 @@ void Student_Management_System::get_Regular_Students()
 				case '1':
 					cin.ignore();
 					sptr->add_student();
-					
+					sptr=NULL;
 					break;
 				case '2':
 					cin.ignore();
